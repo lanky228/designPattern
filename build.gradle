@@ -12,5 +12,6 @@ repositories {
 }
 
 dependencies {
-    testCompile 'junit:junit:5.+'
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.3.0-M1'
+    compile group: 'cglib', name: 'cglib', version: '3.2.6'
 }
